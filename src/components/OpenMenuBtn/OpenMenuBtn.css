@@ -1,0 +1,21 @@
+.openMenuBtn{
+    display: none;
+}
+.openMenuBtn > *{
+    pointer-events: none;
+}
+@media screen and (max-width: 755px) {
+    .openMenuBtn{
+        display: block;
+
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        
+        font-size: 40px;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+}
