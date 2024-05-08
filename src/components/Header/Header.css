@@ -37,10 +37,11 @@ header {
 }
 .dots2{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 20%;
+    right: 193px;
+    transform: translateY(-50%);
     display: flex;
-    rotate: 180deg;
+    rotate: 90deg;
     z-index: -1;
 }
 .gradient-background1 {
@@ -93,6 +94,18 @@ header {
     }
     .dots1, .dots1 > img{
         width: 500px;
+    }
+    .dots2, .dots2 > img{
+        width: 500px;
+    }
+    .dots2{
+        position: absolute;
+        bottom: 5%;
+        right: 125px;
+        transform: translateY(-50%) rotateY(180deg);
+        display: flex;
+        rotate: 90deg;
+        z-index: -1;
     }
 }
 @media screen and (max-width: 884px) {

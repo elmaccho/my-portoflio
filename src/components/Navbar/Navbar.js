@@ -12,7 +12,7 @@ export default function Navbar({isOpen, closeMenu}) {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 100;
+      const isScrolled = window.scrollY > 5;
       if (isScrolled !== scrolled) {
         setScrolled(isScrolled);
       }
@@ -26,7 +26,6 @@ export default function Navbar({isOpen, closeMenu}) {
   }, [scrolled]);
 
   return (
-    // className={isOpen ? 'toggle' : '' + scrolled ? 'scrolled' : ''}
     <nav className={`${isOpen ? 'toggle' : ''} ${scrolled ? 'scrolled' : ''}`}>
       <button className="closeMenuBtn" onClick={closeMenu}>
         <FontAwesomeIcon icon={faXmark}/>
@@ -37,8 +36,8 @@ export default function Navbar({isOpen, closeMenu}) {
       </div>
       <div className="navbar-content">
         <div className="navbar-links">
-          <Link className="nav-item" to="start" smooth={true} duration={500} >Start</Link>
-          <Link className="nav-item" to="about" smooth={true} duration={500} >O mnie</Link>
+          <Link activeClass="active" className="nav-item" to="start" smooth={true} duration={500} >Start</Link>
+          <Link activeClass="active" className="nav-item" to="about" smooth={true} duration={500} >O mnie</Link>
           <a className="nav-item" href="#">Projekty</a>
           <a className="nav-item" href="#">Kontakt</a>
         </div>

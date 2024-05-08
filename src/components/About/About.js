@@ -13,13 +13,19 @@ import {
   faLaravel,
   faFigma,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPalette,
+  faMobileScreen,
+  faGears,
+  faDatabase,
+} from "@fortawesome/free-solid-svg-icons";
+
 import { Element } from "react-scroll";
 
 export default function About() {
   return (
     <Element name="about">
-      <div className="about-wrapper" id="about">
+      <div className="about-wrapper">
         <div className="tech-wrapper">
           <h2 className="title">Technologie z którymi pracuję</h2>
           <div className="frontend-wrapper">
@@ -75,12 +81,12 @@ export default function About() {
           <p>
             Jestem Maciej, a moja przygoda z programowaniem stron internetowych
             rozpoczęła się w 2022 roku. Specjalizuję się zarówno w obszarze
-            Frontendu, jak i Backendu. Moją pracą jest implementacja responsywnych
-            interfejsów użytkownika, głównie przy użyciu technologii takich jak
-            HTML, CSS i JavaScript. Zależy mi na tym, aby strony były nie tylko
-            atrakcyjne wizualnie, ale także łatwe w nawigacji. Ponadto, jako osoba
-            odpowiedzialna za Backend, dbam o funkcjonalność stron, wykorzystując
-            język PHP oraz różne frameworki.
+            Frontendu, jak i Backendu. Moją pracą jest implementacja
+            responsywnych interfejsów użytkownika, głównie przy użyciu
+            technologii takich jak HTML, CSS i JavaScript. Zależy mi na tym, aby
+            strony były nie tylko atrakcyjne wizualnie, ale także łatwe w
+            nawigacji. Ponadto, jako osoba odpowiedzialna za Backend, dbam o
+            funkcjonalność stron, wykorzystując język PHP oraz różne frameworki.
           </p>
           <p>
             Poza pracą, uwielbiam aktywność fizyczną, taką jak gra w piłkę
@@ -88,6 +94,35 @@ export default function About() {
             jest dla mnie nie tylko sposobem na utrzymanie formy, ale także
             źródłem radości i równowagi między życiem zawodowym a osobistym.
           </p>
+        </div>
+      </div>
+      <div className="offert-wrapper">
+        <div className="card">
+          <div className="icon">
+            <FontAwesomeIcon icon={faPalette} />
+          </div>
+          <div className="card-title">UI/UX Design</div>
+          <div className="card-description">
+            Projekt strony internetowej wykonany, z dbałością o UI i UX.
+          </div>
+        </div>
+        <div className="card">
+          <div className="icon">
+            <FontAwesomeIcon icon={faMobileScreen} />
+          </div>
+          <div className="card-title">RWD</div>
+          <div className="card-description">
+            Strona internetowa będzie dostosowana do każdego rodzaju urządzenia.
+          </div>
+        </div>
+        <div className="card">
+          <div className="icon">
+            <FontAwesomeIcon icon={faGears} />
+          </div>
+          <div className="card-title">SEO</div>
+          <div className="card-description">
+            Strona będzie zoptymalizowana pod kątem SEO.
+          </div>
         </div>
       </div>
     </Element>

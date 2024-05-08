@@ -65,6 +65,43 @@
 .tech-icon{
     font-size: 35px;
 }
+.offert-wrapper{
+    padding: 80px;
+    display: flex;
+    gap: 50px;
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 100%;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+.card:hover > *{
+    color: white;
+}
+.card:hover{
+    background-color: #232323;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.icon{
+    color: #232323;
+    font-size: 80px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+@media screen and (max-width: 1290px) {
+    .offert-wrapper{
+        padding:  80px 30px;
+        gap: 30px;
+    }
+}
 @media screen and (max-width: 1070px) {
     .about-text-wrapper{
         width: 100%;
@@ -82,6 +119,12 @@
     .title{
         width: 100%;
         text-align: left;
+    }
+}
+@media screen and (max-width: 970px) {
+    .offert-wrapper{
+        flex-direction: column;
+        padding: 80px 20px;
     }
 }
 @media screen and (max-width: 790px) {

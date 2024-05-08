@@ -11,7 +11,7 @@ nav {
     position: relative;
     transition: 0.3s;
 
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -63,6 +63,10 @@ nav {
 .scrolled {
     background-color: rgba(255, 255, 255, 0.904);
     backdrop-filter: blur(5px);
+    position: fixed;
+}
+.active{
+    color: pink;
 }
 
 @media screen and (max-width: 845px) {
