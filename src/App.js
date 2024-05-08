@@ -6,6 +6,7 @@ import About from './components/About/About';
 import OpenMenuBtn from './components/OpenMenuBtn/OpenMenuBtn';
 
 import { useState } from 'react';
+import Projects from './components/Projects/Projects';
 
 function App() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <Navbar isOpen={isNavbarOpen} closeMenu={toggleNavbar}/>
       <Header/>
       <About/>
+      <Projects/>
     </div>
   );
 }
