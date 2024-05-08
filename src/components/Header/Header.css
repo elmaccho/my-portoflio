@@ -1,5 +1,5 @@
 header {
-    min-height: 80vh;
+    min-height: 100vh;
 
     display: flex;
     align-items: center;
@@ -33,6 +33,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 .dots2{
     position: absolute;
@@ -40,6 +41,7 @@ header {
     right: 0;
     display: flex;
     rotate: 180deg;
+    z-index: -1;
 }
 .gradient-background1 {
     display: block;
@@ -71,7 +73,15 @@ header {
 .header-image{
     z-index: 1;
 }
-
+.mobile-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    z-index: 1;
+    display: none;
+}
 @media screen and (max-width: 1150px) {
     .header-image > img{
         width: 500px;
@@ -98,11 +108,19 @@ header {
 @media screen and (max-width: 754px) {
     header{
         flex-direction: column-reverse;
-        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
         gap: 50px;
         min-height: 100vh;
     }
     .dots1, .dots1 > img{
-        width: 400px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .mobile-title{
+        display: block;
+    }
+    .header-image, .header-image > img{
+        width: 100%;
     }
 }
