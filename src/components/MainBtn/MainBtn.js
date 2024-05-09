@@ -11,7 +11,7 @@ export default function MainBtn({
   return (
     <button className={`main-btn ${dark ? "dark" : ""}`} onClick={onClickEvent}>
       {content}
-      {icon && <FontAwesomeIcon icon={icon} />}
+      {icon && <FontAwesomeIcon icon={icon} className="faicon"/>}
     </button>
   );
 }

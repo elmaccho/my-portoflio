@@ -9,6 +9,7 @@ import { useState } from 'react';
 import Projects from './components/Projects/Projects';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -24,6 +25,7 @@ function App() {
       <Header/>
       <About/>
       <Projects/>
+      <Contact />
     </div>
   );
 }
