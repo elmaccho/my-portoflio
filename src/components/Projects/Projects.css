@@ -1,5 +1,15 @@
 .projects-wrapper{
-    background-color: royalblue;
-    min-height: 80vh;
     display: block;
+}
+.projects-container{
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 569px) {
+    .projects-container{
+        padding: 50px 20px;
+    }
 }

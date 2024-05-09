@@ -1,0 +1,77 @@
+.project-wrapper{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 25px;
+}
+.project-title > h3{
+    color: #232323;
+    font-size: 25px;
+}
+.action-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-wrapper > a > button{
+    min-width: 200px;
+}
+.tech-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tech-button{
+    background-color: #232323;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+    border: none;
+    min-width: 90px;
+    font-size: 15px;
+}
+.project-image{
+    margin-bottom: 10px;
+}
+.project-image, .project-image > img{
+    width: 100%;
+    height: 300px;
+}
+.project-image > img{
+    object-fit: cover;
+    object-position: top;
+    filter:grayscale(1);
+    transition: 1s;
+}
+.project-wrapper:hover .project-image > img{
+    filter:grayscale(0);
+}
+.uiux-modal-image{
+    width: 100%;
+}
+.modal-close{
+    background-color: #232323 !important;
+    border: 2px solid white !important;
+
+    padding: 7px 24px !important;
+    border-radius: 25px !important;
+    font-size: 15px !important;
+    transition: 0.3s !important;
+}
+.modal-close:hover{
+    background-color: white !important;
+    border: 2px solid #232323 !important;
+    color: #232323 !important;
+}
+@media screen and (max-width: 569px) {
+    .project-wrapper{
+        max-width: unset;
+        width: 100%;
+    }
+    .action-wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .action-wrapper > a > button{
+        min-width: 80%;
+    }
+}

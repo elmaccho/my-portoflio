@@ -8,6 +8,8 @@ import OpenMenuBtn from './components/OpenMenuBtn/OpenMenuBtn';
 import { useState } from 'react';
 import Projects from './components/Projects/Projects';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 

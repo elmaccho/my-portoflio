@@ -38,7 +38,7 @@ header {
 .dots2{
     position: absolute;
     bottom: 20%;
-    right: 193px;
+    right: 195px;
     transform: translateY(-50%);
     display: flex;
     rotate: 90deg;

@@ -38,7 +38,7 @@ export default function Navbar({isOpen, closeMenu}) {
         <div className="navbar-links">
           <Link activeClass="active" spy={true} className="nav-item" to="start" smooth={true} duration={500}>Start</Link>
           <Link activeClass="active" spy={true} className="nav-item" to="about" smooth={true} duration={500} offset={-100}>O mnie</Link>
-          <a className="nav-item" href="#">Projekty</a>
+          <Link activeClass="active" spy={true} className="nav-item" to="projects" smooth={true} duration={500} >Projekty</Link>
           <a className="nav-item" href="#">Kontakt</a>
         </div>
         <MainBtn content="Pobierz CV" />
