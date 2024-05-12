@@ -33,6 +33,7 @@
     margin: 0;
     font-weight: 400;
     font-size: 50px;
+    margin-bottom: 20px;
 }
 .about-text-wrapper > p{
     text-align: justify;

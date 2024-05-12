@@ -41,8 +41,10 @@
     flex-direction: column;
     gap: 25px;
 }
-.link-wrapper > button{
-    max-width: 300px;
+.link-wrapper > button,
+.link-wrapper > a > button
+{
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +71,7 @@
 .form-input{
     width: 100%;
     padding: 10px 6px;
+    outline: none;
 }
 textarea.form-input{
     height: 120px;

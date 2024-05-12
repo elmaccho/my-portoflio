@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 import { Element } from "react-scroll";
-import { message } from 'react-message-popup'
+import { message } from "react-message-popup";
 
 import MainBtn from "../MainBtn/MainBtn";
 
@@ -18,15 +18,15 @@ export default function Contact() {
     const copyEmail = "maciek.chojnacki22@wp.pl";
 
     try {
-        navigator.clipboard.writeText(copyEmail);
-    
-        message.success('Skopiowano', 4000).then(({ destory }) => {
-            setTimeout(() => {
-              destory()
-            }, 2000)
-          })
+      navigator.clipboard.writeText(copyEmail);
+
+      message.success("Skopiowano", 4000).then(({ destory }) => {
+        setTimeout(() => {
+          destory();
+        }, 2000);
+      });
     } catch (error) {
-        console.log('oops...');
+      console.log("oops...");
     }
   };
 
@@ -49,18 +49,27 @@ export default function Contact() {
                 icon={faEnvelope}
                 onClickEvent={textToCopy}
               />
-              <MainBtn 
-                content="Facebook" 
-                icon={faFacebookSquare} 
-              />
-              <MainBtn 
-                content="Github" 
-                icon={faGithub} 
-              />
-              <MainBtn 
-                content="Linkedin" 
-                icon={faLinkedin} 
-              />
+              <a
+                href="https://www.facebook.com/eeeeeeee1234567890/"
+                target="_blank"
+                className="text-decoration-none"
+              >
+                <MainBtn content="Facebook" icon={faFacebookSquare} />
+              </a>
+              <a
+                href="https://github.com/elmaccho"
+                target="_blank"
+                className="text-decoration-none"
+              >
+                <MainBtn content="Github" icon={faGithub} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/maciej-chojnacki-085615284/"
+                target="_blank"
+                className="text-decoration-none"
+              >
+                <MainBtn content="Linkedin" icon={faLinkedin} />
+              </a>
             </div>
           </div>
           <div className="form">
