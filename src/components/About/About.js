@@ -21,6 +21,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Element } from "react-scroll";
+import MyToDo from "../MyToDo/MyToDo";
 
 export default function About() {
   return (
@@ -125,6 +126,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <MyToDo />
     </Element>
   );
 }

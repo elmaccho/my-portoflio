@@ -24,4 +24,5 @@
 .main-btn.dark:hover {
     background-color: white;
     color: #232323;
+    border: 2px solid #232323;
 }

@@ -5,12 +5,16 @@ import { Element } from "react-scroll";
 import FilterProjects from "../FilterProjects/FilterProjects";
 import Project from "../Project/Project";
 
-import desktop from "../../Images/projects/desktop.png";
-import rosabud from "../../Images/projects/rosabud.png";
+import yourgymproject from "../../Images/projects/yourgymproject.jpg";
 import sharehub from "../../Images/projects/sharehub.png";
 import yourgym from "../../Images/projects/yourgym.png";
+import edutechmain from "../../Images/projects/edutechmain.png";
 
-export default function Projects(){
+
+export default function Projects() {
+  const [lgShow, setLgShow] = useState(false);
+  const handleClose = () => setLgShow(false);
+
   const [projects, setProjects] = useState([
     {
       hasCode: true,
@@ -24,16 +28,9 @@ export default function Projects(){
     },
     {
       isImage: true,
-      imageLink: desktop,
-      title: "Projekt Strony desktop",
-      techList: ["Figma"],
-      projectType: "uiux",
-    },
-    {
-      isImage: true,
-      imageLink: rosabud,
-      title: "Projekt Strony Rosabud",
-      techList: ["Figma"],
+      imageLink: yourgymproject,
+      title: "Projekt Strony YourGym",
+      techList: ["Figma", "PhotoShop"],
       projectType: "uiux",
     },
     {
@@ -44,6 +41,13 @@ export default function Projects(){
       title: "Forum Internetowe ShareHub",
       techList: ["Laravel", "LiveWire", "Bootstrap"],
       projectType: "web",
+    },
+    {
+      isImage: true,
+      imageLink: edutechmain,
+      title: "Projekt Strony EduTech",
+      techList: ["Figma"],
+      projectType: "uiux",
     },
   ]);
 
@@ -72,4 +76,4 @@ export default function Projects(){
       </div>
     </Element>
   );
-};
+}
