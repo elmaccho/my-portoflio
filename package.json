@@ -2,7 +2,7 @@
   "name": "maciej-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elmaccho.github.io/elmaccho/my-portfolio",
+  "homepage": "https://elmaccho.github.io/my-portfolio",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
