@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b83de496.css",
-    "main.js": "/static/js/main.2732bbaf.js",
-    "static/js/453.831a9abc.chunk.js": "/static/js/453.831a9abc.chunk.js",
-    "static/media/yourgymproject.jpg": "/static/media/yourgymproject.5e8a9d0df811ddb70ade.jpg",
-    "static/media/Startpageall.png": "/static/media/Startpageall.3b7c56616a6cb18e28d8.png",
-    "static/media/yourgym.png": "/static/media/yourgym.e56e4d82c2c92e877dcf.png",
-    "static/media/17515506918173.png": "/static/media/17515506918173.1200ec9e482db261c53b.png",
-    "static/media/edutechstrona.png": "/static/media/edutechstrona.ae48470196b8b14bbd61.png",
-    "static/media/edutechmain.png": "/static/media/edutechmain.48f5078d9cda710e5e80.png",
-    "static/media/sharehub.png": "/static/media/sharehub.a0f0b0fe7d960c0afbb3.png",
-    "static/media/Rejestracja1edu.png": "/static/media/Rejestracja1edu.85d208aabeb8598cdc23.png",
-    "static/media/logowanieedutech.png": "/static/media/logowanieedutech.2d980f809e64abbb61ff.png",
-    "static/media/Rejestracja2edu.png": "/static/media/Rejestracja2edu.4b8d9c480ab3cab85d05.png",
-    "static/media/Vector 1.svg": "/static/media/Vector 1.4507797198d1b2184057f5034bc72546.svg",
-    "index.html": "/index.html",
-    "main.b83de496.css.map": "/static/css/main.b83de496.css.map",
-    "main.2732bbaf.js.map": "/static/js/main.2732bbaf.js.map",
-    "453.831a9abc.chunk.js.map": "/static/js/453.831a9abc.chunk.js.map"
+    "main.css": "/elmaccho/my-portoflio/static/css/main.b83de496.css",
+    "main.js": "/elmaccho/my-portoflio/static/js/main.0e912044.js",
+    "static/js/453.831a9abc.chunk.js": "/elmaccho/my-portoflio/static/js/453.831a9abc.chunk.js",
+    "static/media/yourgymproject.jpg": "/elmaccho/my-portoflio/static/media/yourgymproject.5e8a9d0df811ddb70ade.jpg",
+    "static/media/Startpageall.png": "/elmaccho/my-portoflio/static/media/Startpageall.3b7c56616a6cb18e28d8.png",
+    "static/media/yourgym.png": "/elmaccho/my-portoflio/static/media/yourgym.e56e4d82c2c92e877dcf.png",
+    "static/media/17515506918173.png": "/elmaccho/my-portoflio/static/media/17515506918173.1200ec9e482db261c53b.png",
+    "static/media/edutechstrona.png": "/elmaccho/my-portoflio/static/media/edutechstrona.ae48470196b8b14bbd61.png",
+    "static/media/edutechmain.png": "/elmaccho/my-portoflio/static/media/edutechmain.48f5078d9cda710e5e80.png",
+    "static/media/sharehub.png": "/elmaccho/my-portoflio/static/media/sharehub.a0f0b0fe7d960c0afbb3.png",
+    "static/media/Rejestracja1edu.png": "/elmaccho/my-portoflio/static/media/Rejestracja1edu.85d208aabeb8598cdc23.png",
+    "static/media/logowanieedutech.png": "/elmaccho/my-portoflio/static/media/logowanieedutech.2d980f809e64abbb61ff.png",
+    "static/media/Rejestracja2edu.png": "/elmaccho/my-portoflio/static/media/Rejestracja2edu.4b8d9c480ab3cab85d05.png",
+    "static/media/Vector 1.svg": "/elmaccho/my-portoflio/static/media/Vector 1.4507797198d1b2184057f5034bc72546.svg",
+    "index.html": "/elmaccho/my-portoflio/index.html",
+    "main.b83de496.css.map": "/elmaccho/my-portoflio/static/css/main.b83de496.css.map",
+    "main.0e912044.js.map": "/elmaccho/my-portoflio/static/js/main.0e912044.js.map",
+    "453.831a9abc.chunk.js.map": "/elmaccho/my-portoflio/static/js/453.831a9abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b83de496.css",
-    "static/js/main.2732bbaf.js"
+    "static/js/main.0e912044.js"
   ]
 }
