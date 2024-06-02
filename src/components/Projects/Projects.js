@@ -9,6 +9,7 @@ import yourgymproject from "../../Images/projects/yourgymproject.jpg";
 import sharehub from "../../Images/projects/sharehub.png";
 import yourgym from "../../Images/projects/yourgym.png";
 import edutechmain from "../../Images/projects/edutechmain.png";
+import edutechsite from "../../Images/projects/edutechstrona.png";
 
 
 export default function Projects() {
@@ -49,6 +50,14 @@ export default function Projects() {
       techList: ["Figma"],
       projectType: "uiux",
     },
+    {
+      hasCode: true,
+      codeLink: "https://github.com/elmaccho/EduTechPl",
+      imageLink: edutechsite,
+      title: "EduTech",
+      techList: ["Laravel", "React"],
+      projectType: "web"
+    }
   ]);
 
   const [filteredProjects, setFilteredProjects] = useState(projects);
