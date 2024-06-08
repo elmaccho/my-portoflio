@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portoflio/static/css/main.b83de496.css",
-    "main.js": "/my-portoflio/static/js/main.a9ac1721.js",
+    "main.js": "/my-portoflio/static/js/main.01997c08.js",
     "static/js/453.831a9abc.chunk.js": "/my-portoflio/static/js/453.831a9abc.chunk.js",
     "static/media/yourgymproject.jpg": "/my-portoflio/static/media/yourgymproject.5e8a9d0df811ddb70ade.jpg",
     "static/media/Startpageall.png": "/my-portoflio/static/media/Startpageall.3b7c56616a6cb18e28d8.png",
@@ -13,14 +13,15 @@
     "static/media/Rejestracja1edu.png": "/my-portoflio/static/media/Rejestracja1edu.85d208aabeb8598cdc23.png",
     "static/media/logowanieedutech.png": "/my-portoflio/static/media/logowanieedutech.2d980f809e64abbb61ff.png",
     "static/media/Rejestracja2edu.png": "/my-portoflio/static/media/Rejestracja2edu.4b8d9c480ab3cab85d05.png",
+    "static/media/CV_Maciej_Chojnacki.pdf": "/my-portoflio/static/media/CV_Maciej_Chojnacki.3ecf34289637b94276b4.pdf",
     "static/media/Vector 1.svg": "/my-portoflio/static/media/Vector 1.4507797198d1b2184057f5034bc72546.svg",
     "index.html": "/my-portoflio/index.html",
     "main.b83de496.css.map": "/my-portoflio/static/css/main.b83de496.css.map",
-    "main.a9ac1721.js.map": "/my-portoflio/static/js/main.a9ac1721.js.map",
+    "main.01997c08.js.map": "/my-portoflio/static/js/main.01997c08.js.map",
     "453.831a9abc.chunk.js.map": "/my-portoflio/static/js/453.831a9abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b83de496.css",
-    "static/js/main.a9ac1721.js"
+    "static/js/main.01997c08.js"
   ]
 }
