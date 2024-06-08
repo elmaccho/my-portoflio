@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "./Projects.css";
 import { Element } from "react-scroll";
 
-import FilterProjects from "../FilterProjects/FilterProjects";
-import Project from "../Project/Project";
+import FilterProjects from "components/FilterProjects/FilterProjects";
+import Project from "components/Project/Project";
 
-import yourgymproject from "../../Images/projects/yourgymproject.jpg";
-import sharehub from "../../Images/projects/sharehub.png";
-import yourgym from "../../Images/projects/yourgym.png";
-import edutechmain from "../../Images/projects/edutechmain.png";
-import edutechsite from "../../Images/projects/edutechstrona.png";
+import yourgymproject from "Images/projects/yourgymproject.jpg";
+import sharehub from "Images/projects/sharehub.png";
+import yourgym from "Images/projects/yourgym.png";
+import edutechmain from "Images/projects/edutechmain.png";
+import edutechsite from "Images/projects/edutechstrona.png";
 
 
 export default function Projects() {

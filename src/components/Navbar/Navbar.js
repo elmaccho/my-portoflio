@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 
-import MainBtn from "../MainBtn/MainBtn";
-
 import { Link } from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import CVdownload from "components/CVdownload/CVdownload";
 
 export default function Navbar({isOpen, closeMenu}) {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +40,7 @@ export default function Navbar({isOpen, closeMenu}) {
           <Link activeClass="active" spy={true} className="nav-item" to="projects" smooth={true} duration={500}>Projekty</Link>
           <Link activeClass="active" spy={true} className="nav-item" to="contact"  smooth={true}>Kontakt</Link>
         </div>
-        <MainBtn content="Pobierz CV" />
+        <CVdownload/>
       </div>
     </nav>
   );

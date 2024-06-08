@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import dots1 from "../../Images/header/Vector 1.svg";
-import profilePicture from "../../Images/header/17515506918173.png"
+import dots1 from "Images/header/Vector 1.svg";
+import profilePicture from "Images/header/17515506918173.png";
 import { Element } from "react-scroll";
 
 export default function Header() {

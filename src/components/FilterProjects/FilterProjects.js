@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./FilterProjects.css";
 
-import MainBtn from "../MainBtn/MainBtn";
+import MainBtn from "components/MainBtn/MainBtn";
 
 export default function FilterProjects({ handleFilter }) {
   const [activeFilter, setActiveFilter] = useState(null);

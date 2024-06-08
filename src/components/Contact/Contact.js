@@ -4,7 +4,7 @@ import "./Contact.css";
 import { Element } from "react-scroll";
 import { message } from "react-message-popup";
 
-import MainBtn from "../MainBtn/MainBtn";
+import MainBtn from "components/MainBtn/MainBtn";
 
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {

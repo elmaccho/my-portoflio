@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import "./Project.css";
-import MainBtn from "../MainBtn/MainBtn";
+import MainBtn from "components/MainBtn/MainBtn";
 
 import { faCode, faGlobe, faImage } from "@fortawesome/free-solid-svg-icons";
 
 import { Accordion, Button, Modal } from "react-bootstrap";
 
-import mainpage from "../../Images/projects/Startpageall.png";
-import register1 from "../../Images/projects/Rejestracja1edu.png";
-import register2 from "../../Images/projects/Rejestracja2edu.png";
-import login from "../../Images/projects/logowanieedutech.png";
+import mainpage from "Images/projects/Startpageall.png";
+import register1 from "Images/projects/Rejestracja1edu.png";
+import register2 from "Images/projects/Rejestracja2edu.png";
+import login from "Images/projects/logowanieedutech.png";
 
 export default function Project({
   title = "",
