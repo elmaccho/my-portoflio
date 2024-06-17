@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://elmaccho.github.io/my-portoflio/",
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -20,6 +21,7 @@
     "react-message-popup": "^2.0.0-alpha.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
+    "sweetalert2": "^11.11.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

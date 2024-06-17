@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 
 import { Element } from "react-scroll";
 import { message } from "react-message-popup";
 
+import Swal from "sweetalert2";
+
+import { useForm } from "@formspree/react";
 import MainBtn from "components/MainBtn/MainBtn";
 
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -14,6 +17,24 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
+  const formRef = useRef(null);
+  const [state, handleSubmit] = useForm("xayrrkpk");
+  if (state.succeeded) {
+    Swal.fire({
+      title: "Wysłano wiadomość!",
+      position: "top-end",
+      icon: "success",
+      showConfirmButton: false,
+      iconColor: "grey",
+      timer: 1500,
+      timerProgressBar: true,
+      width: "400px",
+    });
+    if (formRef.current) {
+      formRef.current.reset();
+    }
+  }
+
   const textToCopy = () => {
     const copyEmail = "maciek.chojnacki22@wp.pl";
 
@@ -29,7 +50,6 @@ export default function Contact() {
       console.log("oops...");
     }
   };
-
   return (
     <Element name="contact">
       <div className="contact-wrapper">
@@ -73,16 +93,26 @@ export default function Contact() {
             </div>
           </div>
           <div className="form">
-            <form>
+            <form ref={formRef} onSubmit={handleSubmit}>
               <input
                 className="form-input"
+                name="Fullname"
                 type="text"
                 placeholder="Imię i nazwisko"
+                required
               />
-              <input className="form-input" type="email" placeholder="Email" />
+              <input
+                className="form-input"
+                name="Email"
+                type="email"
+                placeholder="Email"
+                required
+              />
               <textarea
                 className="form-input"
+                name="Message"
                 placeholder="Wiadomość"
+                required
               ></textarea>
 
               <button className="form-button" type="submit">
