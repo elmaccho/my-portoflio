@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portoflio/static/css/main.b83de496.css",
-    "main.js": "/my-portoflio/static/js/main.01997c08.js",
+    "main.js": "/my-portoflio/static/js/main.534f605f.js",
     "static/js/453.831a9abc.chunk.js": "/my-portoflio/static/js/453.831a9abc.chunk.js",
     "static/media/yourgymproject.jpg": "/my-portoflio/static/media/yourgymproject.5e8a9d0df811ddb70ade.jpg",
     "static/media/Startpageall.png": "/my-portoflio/static/media/Startpageall.3b7c56616a6cb18e28d8.png",
@@ -17,11 +17,11 @@
     "static/media/Vector 1.svg": "/my-portoflio/static/media/Vector 1.4507797198d1b2184057f5034bc72546.svg",
     "index.html": "/my-portoflio/index.html",
     "main.b83de496.css.map": "/my-portoflio/static/css/main.b83de496.css.map",
-    "main.01997c08.js.map": "/my-portoflio/static/js/main.01997c08.js.map",
+    "main.534f605f.js.map": "/my-portoflio/static/js/main.534f605f.js.map",
     "453.831a9abc.chunk.js.map": "/my-portoflio/static/js/453.831a9abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b83de496.css",
-    "static/js/main.01997c08.js"
+    "static/js/main.534f605f.js"
   ]
 }
