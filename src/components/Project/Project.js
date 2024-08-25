@@ -26,7 +26,7 @@ export default function Project({
   const handleClose = () => setLgShow(false);
 
   return (
-    <div className="project-wrapper">
+    <div className="project-wrapper"  data-aos="fade-up">
       <div className="project-image">
         <img className="project-img" src={imageLink} alt="Project Card" />
       </div>

@@ -11,6 +11,10 @@ import Projects from 'components/Projects/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from 'components/Contact/Contact';
 
+import Aos from "aos";
+import 'aos/dist/aos.css'
+Aos.init();
+
 function App() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 

@@ -79,7 +79,7 @@ export default function Projects() {
         <FilterProjects handleFilter={handleFilter} />
         <div className="projects-container">
           {filteredProjects.map((project, index) => (
-            <Project key={index} {...project} />
+            <Project key={index} {...project}/>
           ))}
         </div>
       </div>

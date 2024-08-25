@@ -27,7 +27,7 @@ export default function About() {
   return (
     <Element name="about">
       <div className="about-wrapper">
-        <div className="tech-wrapper">
+        <div className="tech-wrapper" data-aos="fade-right">
           <h2 className="title">Technologie z którymi pracuję</h2>
           <div className="frontend-wrapper">
             <h3>Frontend</h3>
@@ -75,7 +75,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="about-text-wrapper">
+        <div className="about-text-wrapper" data-aos="fade-up">
           <h2>
             O <span className="dark-bg">mnie</span>
           </h2>
@@ -98,7 +98,7 @@ export default function About() {
         </div>
       </div>
       <div className="offert-wrapper">
-        <div className="card">
+        <div className="card" data-aos="flip-up">
           <div className="icon">
             <FontAwesomeIcon icon={faPalette} />
           </div>
@@ -107,7 +107,7 @@ export default function About() {
             Projekt strony internetowej wykonany, z dbałością o UI i UX.
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="flip-up" data-aos-delay="100">
           <div className="icon">
             <FontAwesomeIcon icon={faMobileScreen} />
           </div>
@@ -116,7 +116,7 @@ export default function About() {
             Strona internetowa będzie dostosowana do każdego rodzaju urządzenia.
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="flip-up" data-aos-delay="200">
           <div className="icon">
             <FontAwesomeIcon icon={faGears} />
           </div>

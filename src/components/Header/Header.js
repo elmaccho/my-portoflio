@@ -10,16 +10,16 @@ export default function Header() {
       <header>
         <div className="mobile-title">MC</div>
         <div className="header-text">
-          <h2>
+          <h2 data-aos="fade-down" data-aos-duration="1000">
             Cześć! <span className="dark-bg">Jestem Maciej</span>
           </h2>
-          <h2>Web Developer</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Web Developer</h2>
         </div>
-        <div className="header-image">
+        <div className="header-image" data-aos="fade-left" data-aos-duration="1000">
           <img src={profilePicture} alt="Maciej Chojnacki"/>
         </div>
 
-        <div className="dots1">
+        <div className="dots1" data-aos="zoom-out-right" data-aos-duration="2000">
           <div className="gradient-background1"></div>
           <img src={dots1} alt="dots" />
         </div>
